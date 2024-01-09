@@ -12,9 +12,11 @@
   font-family: myFont2;
   src: url(font/CalastoniaPersonalUse-Regular.otf);
 }
+* {
+  overflow: hidden;
+}
 body {
   background-color: #b54053;
-  overflow: hidden;
 }
 .container-fluid {
   margin: 0;
