@@ -1,0 +1,110 @@
+@font-face {
+  font-family: myFont;
+  src: url(font/Traditional\ Challenges\ Demo.otf);
+}
+
+@font-face {
+  font-family: myFont1;
+  src: url(font/Challenge\ Together\ Demo.otf);
+}
+
+@font-face {
+  font-family: myFont2;
+  src: url(font/CalastoniaPersonalUse-Regular.otf);
+}
+body {
+  background-color: #b54053;
+  overflow: hidden;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  width: 100%;
+  height: 8vh;
+  background-color: #e7d4be;
+}
+.head .logo {
+  margin-left: 2%;
+  line-height: 5vh;
+  font-family: myFont;
+  font-size: 2em;
+  color: #2b312e;
+  margin-left: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.head .logo span {
+  color: #b54053;
+}
+
+.head .nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.head .nav ul li {
+  margin-left: 15%;
+  line-height: 7vh;
+  font-size: 1.8em;
+}
+
+.head .nav ul li a {
+  text-decoration: none;
+  color: #2b312e;
+  font-family: myFont1;
+}
+
+.head .nav ul li a:hover {
+  color: #2a1e2d48;
+}
+#nav {
+  padding: 0;
+  margin: 0;
+}
+
+#nav_innerRow {
+  padding: 0;
+  margin: 0;
+}
+
+#nav_innerRow .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.webcontent {
+  width: 100%;
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+}
+
+.text h2 {
+  line-height: 5vh;
+  color: #e7d4be;
+  font-size: 2em;
+  font-family: myFont2;
+}
+.text h2 span {
+  color: #2a1e2d;
+}
+#img_col {
+  overflow: hidden;
+}
+
+img {
+  overflow: hidden;
+  position: absolute;
+  top: 8vh;
+  left: 50%;
+  z-index: -1;
+}
